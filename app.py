@@ -95,10 +95,6 @@ with gr.Blocks(title="K&K's Bot", fill_height=True) as demo:
         scale=1,
     )
 
-    gallery = gr.Gallery(
-        label="images", show_label=False, elem_id="gallery"
-    , columns=[5], rows=[1], object_fit="contain", height="auto")
-
     # Initialize textbox
     chat_input = gr.MultimodalTextbox(
         interactive=True,
